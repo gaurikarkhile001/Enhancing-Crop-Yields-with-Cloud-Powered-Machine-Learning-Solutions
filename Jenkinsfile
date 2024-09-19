@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                // Checkout the code from your GitHub repository
+               
                 git 'https://github.com/gaurikarkhile001/Enhancing-Crop-Yields-with-Cloud-Powered-Machine-Learning-Solutions.git'
             }
         }
